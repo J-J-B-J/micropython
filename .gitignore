@@ -1,3 +1,45 @@
+# Compiled Sources
+###################
+*.o
+*.a
+*.elf
+*.bin
+*.map
+*.hex
+*.dis
+*.exe
+
+lextab.py
+yacctab.py
+
+# Packages
+############
+
+# Logs and Databases
+######################
+*.log
+
+# VIM Swap Files
+######################
+*.swp
+*.swo
+*.swn
+*.swi
+*.swj
+*.swk
+*.swl
+*.swm
+
+# VIM Session Files
+######################
+Session.vim
+
+# CTags files
+######################
+tags
+TAGS
+
+######################
 # This .gitignore file is intended to be minimal.
 #
 # If you find that you need additional rules, such as IDE temporary
@@ -21,6 +63,8 @@ __pycache__/
 # Customized Makefile/project overrides
 GNUmakefile
 user.props
+ports/javascript/node_modules
+.vscode/
 
 # MacOS desktop metadata files
 .DS_Store

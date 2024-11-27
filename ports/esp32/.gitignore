@@ -1,2 +1,4 @@
-dependencies.lock
-managed_components/
+*.swp
+lextab.py
+yacctab.py
+
